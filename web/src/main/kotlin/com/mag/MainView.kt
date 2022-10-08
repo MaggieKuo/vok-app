@@ -22,6 +22,7 @@ class MainView : KComposite(), BeforeEnterObserver {
         verticalLayout {
             h1("JCConf 2002")
             h2("使用 Kotlin 建構企業網路應用程式")
+
         }
     }
 
