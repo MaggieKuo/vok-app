@@ -1,9 +1,8 @@
-[![Powered By Vaadin on Kotlin](http://vaadinonkotlin.eu/iconography/vok_badge.svg)](http://vaadinonkotlin.eu)
-[![Build Status](https://github.com/mvysny/vok-helloworld-app/actions/workflows/gradle.yml/badge.svg)](https://github.com/mvysny/vok-helloworld-app/actions/workflows/gradle.yml)
+[![Powered By Vaadin on Kotlin](http://vaadinonkotlin.eu/iconography/vok_badge.svg)](https://www.vaadinonkotlin.eu/)
 
-# Vaadin-on-Kotlin Vaadin 14 Example App / Archetype
+# Vaadin-on-Kotlin Vaadin 23 Example App / Archetype
 
-Template for a simple Vaadin-on-Kotlin Vaadin 14-based application that only
+Template for a simple Vaadin-on-Kotlin Vaadin 23-based application that only
 requires a Servlet 3.0 container to run. Just clone this repo and start building your awesome app!
 
 You'll start with this app when you follow the [Getting Started tutorial](http://www.vaadinonkotlin.eu/gettingstarted-v10.html).
@@ -23,8 +22,8 @@ Also make sure that you have Java 8 (or higher) JDK installed.
 To quickly start the app, just type this into your terminal:
 
 ```bash
-git clone https://github.com/mvysny/vok-helloworld-app
-cd vok-helloworld-app
+git clone https://github.com/MaggieKuo/vok-app
+cd vok-app
 ./gradlew build web:appRun
 ```
 
@@ -94,7 +93,6 @@ Let's look at all files that this project is composed of, and what are the point
 | ----- | -------
 | [build.gradle.kts](build.gradle.kts), [settings.gradle.kts](settings.gradle.kts) | [Gradle](https://gradle.org/) build tool configuration files. Gradle is used to compile your app, download all dependency jars and build a war file
 | [gradlew](gradlew), [gradlew.bat](gradlew.bat), [gradle/](gradle) | Gradle runtime files, so that you can build your app from command-line simply by running `./gradlew`, without having to download and install Gradle distribution yourself.
-| [.travis.yml](.travis.yml) | Configuration file for [Travis-CI](http://travis-ci.org/) which tells Travis how to build the app. Travis watches your repo; it automatically builds your app and runs all the tests after every commit.
 | [.gitignore](.gitignore) | Tells [Git](https://git-scm.com/) to ignore files that can be produced from your app's sources - be it files produced by Gradle, Intellij project files etc.
 | [web/](web/) | The web Gradle module which will host the web application itself. You can add more Gradle modules as your project will grow. Visit the [web module docs](web/) for more documentation.
 
