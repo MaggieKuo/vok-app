@@ -37,10 +37,9 @@ via Gretty's `./gradlew appRun`. The Ultimate edition will allow you to run the
 project in Tomcat - this is the recommended
 option for a real development.
 
-## The 'complete' sources
+## The basic project sources from
 
-You can switch the git branch from 'master' to ['complete'](../../tree/complete), to see the outcome application of the
-[Vaadin-on-Kotlin Getting Started](http://www.vaadinonkotlin.eu/gettingstarted-v10.html) tutorial.
+You can download basic project from [mvysny/vok-helloworld-app](https://github.com/mvysny/vok-helloworld-app)
 
 ## Supported Modes
 
